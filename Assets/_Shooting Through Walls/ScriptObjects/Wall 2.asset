@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21f8712fbfa1e54f874f7e000605d44, type: 3}
+  m_Name: Wall 2
+  m_EditorClassIdentifier: 
+  startHitPoints: 50
+  destroyAudio: {fileID: 8300000, guid: 50064440c2a6a704c8b87f8fda31ed66, type: 3}
+  mixerGroup: {fileID: 24300002, guid: 10fd948c4da899d449d29861b306efe1, type: 2}
+  secsUntilDestroy: 1
