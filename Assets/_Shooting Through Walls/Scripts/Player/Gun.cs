@@ -71,7 +71,7 @@ public class Gun : MonoBehaviour
 
         foreach (RaycastHit hit in _hits)
         {
-            _currentShotDamage -= hit.transform.gameObject.GetComponent<Shootable>().OnHit(_currentShotDamage);
+            _currentShotDamage -= hit.transform.GetComponent<Shootable>().OnHit(_currentShotDamage);
             if (_currentShotDamage <= 0)
             {
                 break;
